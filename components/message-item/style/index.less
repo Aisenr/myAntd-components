@@ -1,0 +1,27 @@
+@import "../../style/themes/default";
+@timeWidth: 150px;
+@component-prefix-message-item: ~"@{component-prefix}-message-item";
+
+.@{component-prefix-message-item} {
+  width: 100%;
+  &-outer {
+    width: 100%;
+    border-bottom: 1px dashed rgb(189, 189, 189);
+    padding-left: 20px;
+  }
+  &-below {
+    width: 100%;
+  }
+  &-title {
+    font-weight: 700;
+  }
+  &-content {
+    display: inline-block;
+    width: calc(~"100% - "@timeWidth)
+  }
+  &-time {
+    display: inline-block;
+    width: @timeWidth;
+    text-align: center;
+  }
+}

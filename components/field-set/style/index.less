@@ -1,0 +1,28 @@
+@import "../../style/themes/default";
+
+@component-field-set: ~"@{component-prefix}-field-set";
+
+.@{component-field-set} {
+  margin-bottom: 32px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &-header {
+    height: 30px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding: 0 0 10px 0;
+    margin-bottom: 10px;
+  }
+  &-title {
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+  }
+  &-extra {
+    display: inline-block;
+    float: right;
+  }
+  &-children {
+    clear: both;
+  }
+}

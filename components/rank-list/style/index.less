@@ -1,0 +1,79 @@
+@import "../../style/themes/default";
+
+@rankingWidth: 30px;
+@unitNumberSpace: 5px;
+@unitNumberWidth: 100px;//数字单位总宽度
+@conponent-prefix-rank-list: ~"@{component-prefix}-rank-list";
+
+.@{conponent-prefix-rank-list} {
+  .ant-card-wider-padding .ant-card-head {
+    padding: 0 18px;
+  }
+  &-extra {
+    &:hover {
+      cursor: pointer;
+      color: #72ACE3;
+    }
+  }
+  &-li {
+    border-bottom: 1px dashed rgb(189, 189, 189);
+    padding: 10px 10px 5px;
+    list-style-type:none;
+    a {
+      color: #777777;
+      &:hover{
+        color: #22aaea;
+      }
+    }
+  }
+  &-li:nth-last-child(1) {
+    border-bottom: 0 dashed rgb(189, 189, 189);
+  }
+  &-unit-number {
+    display: inline-block;
+    width: @unitNumberWidth;
+    text-align: right;
+    vertical-align: super;
+  }
+  &-ranking{
+    display: inline-block;
+    width: @rankingWidth;
+    vertical-align: super;
+  }
+
+  &-ulcla{
+    padding-left: 0;
+    &-index {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+    }
+    & li:nth-of-type(1) &-index:nth-of-type(1){
+      background-color: #f84515;
+      color: #fff;
+    }
+    & li:nth-of-type(2) &-index:nth-of-type(1){
+      background-color: #69be32;
+      color: #fff;
+    }
+    & li:nth-of-type(3) &-index:nth-of-type(1){
+      background-color: #25ade3;
+      color: #fff;
+    }
+  }
+  &-unit {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  &-content{
+    @param: @unitNumberWidth + @rankingWidth;
+    display: inline-block;
+    width: calc(~"100% - @{param}")
+  }
+  &-defaultValue {
+    color: rgba(0,0,0,0.43);
+    text-align: center;
+  }
+}

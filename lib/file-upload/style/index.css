@@ -1,0 +1,58 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-file-upload-upload-text {
+  font-size: 12px;
+  color: #666;
+}
+.bis-file-upload-attachment-btn-des {
+  margin-left: 4px;
+  color: rgba(0, 0, 0, 0.45);
+}
+.bis-file-upload-attachment-file-list {
+  position: relative;
+  display: flow-root;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.bis-file-upload-attachment-file-list-progress {
+  margin-left: -22px !important;
+}
+.bis-file-upload-attachment-file-list-info {
+  margin-bottom: 4px;
+  height: 28px;
+  line-height: 32px;
+}
+.bis-file-upload-attachment-file-list-info-link {
+  margin-right: 4px;
+  vertical-align: unset;
+}
+.bis-file-upload-attachment-file-list-info-name {
+  width: calc(100% - 18px);
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  height: 27px;
+}
+.bis-file-upload-attachment-file-list-info-input {
+  width: calc(100% - 18px) !important;
+  margin-right: 4px !important;
+}
+.bis-file-upload-attachment-file-list-info-delete {
+  cursor: pointer;
+}
+.bis-file-upload-attachment-file-list-error {
+  color: #f5222d;
+}
+.has-error .bis-file-upload-attachment .ant-input {
+  border-color: #d9d9d9 !important;
+}
+.has-error .bis-file-upload-attachment .ant-input:hover {
+  border-color: #d9d9d9 !important;
+}
+.has-error .bis-file-upload-attachment .ant-input:focus {
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2) !important;
+}

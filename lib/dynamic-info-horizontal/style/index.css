@@ -1,0 +1,41 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-dynamic-info-horizontal-panel {
+  position: relative;
+  height: 93px;
+  line-height: 93px;
+  background-color: #fff;
+}
+.bis-dynamic-info-horizontal-panel:hover {
+  background-color: #e9e9e9;
+}
+.bis-dynamic-info-horizontal-panel:hover .bis-dynamic-info-horizontal-panel-number {
+  font-weight: 600;
+}
+.bis-dynamic-info-horizontal-panel img {
+  width: 60px;
+  height: 65px;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+.bis-dynamic-info-horizontal-panel-unit {
+  position: absolute;
+  top: 8px;
+  right: 25px;
+  font-size: 14px;
+  color: #777;
+}
+.bis-dynamic-info-horizontal-panel-number {
+  position: absolute;
+  right: 60px;
+  display: inline-block;
+  color: #0154ad;
+  font-size: 38px;
+}
+.bis-dynamic-info-horizontal-title {
+  margin-left: 15px;
+  font-size: 18px;
+  color: #1d1d1d;
+}

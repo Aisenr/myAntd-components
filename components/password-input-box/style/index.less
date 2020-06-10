@@ -1,0 +1,29 @@
+@import "../../style/themes/default";
+@component-prefix-password-input-box: ~"@{component-prefix}-password-input-box";
+
+.@{component-prefix-password-input-box} {
+  &-input-small {
+    vertical-align: middle;
+    width: calc(~"100% - 102px") !important;
+  }
+  &-input-default {
+    vertical-align: middle;
+    width: calc(~"100% - 126px") !important;
+  }
+  &-input-large {
+    vertical-align: middle;
+    width: calc(~"100% - 150px") !important;
+  }
+  &-status {
+    display: inline-block;
+    border-radius: 5px;
+    background: #ccc;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+    vertical-align: middle;
+  }
+  &-password {
+    background: #ffb000;
+  }
+}

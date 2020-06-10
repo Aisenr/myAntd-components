@@ -1,0 +1,20 @@
+@import "../../style/themes/default";
+@component-prefix-panel: ~"@{component-prefix}-panel";
+
+.@{component-prefix-panel} {
+  margin: 20px;
+  &-title {
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  &-extra {
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+  &-children {
+    clear: both;
+  }
+}

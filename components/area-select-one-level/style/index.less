@@ -1,0 +1,52 @@
+@import "../../style/themes/default";
+@prefix-area-select-one-level: ~"@{component-prefix}-area-select-one-level";
+
+.@{prefix-area-select-one-level}{
+  &-selectDiv {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    color: #bfbfbf;
+    border-radius: 4px;
+    padding-left: 11px;
+    cursor: pointer;
+    &-chooseContent {
+      color: rgba(0, 0, 0, 0.65);
+    }
+    &-close {
+      position: absolute;
+      right: 10px;
+      top: 9px;
+      font-size: 12px;
+    }
+    &-down {
+      position: absolute;
+      right: 10px;
+      top: 9px;
+      font-size: 12px;
+    }
+    &-up {
+      position: absolute;
+      right: 10px;
+      top: 9px;
+      font-size: 12px;
+    }
+    background-color: #ffffff;
+  }
+  &-row{
+    padding-left: 15px;
+  }
+  &-col{
+    min-height: 32px;
+    span {
+      display: inline-block;
+      padding: 2px;
+      cursor: pointer;
+      border: 0px solid;
+      &:hover {
+        //background-color: #;
+      }
+    }
+  }
+}

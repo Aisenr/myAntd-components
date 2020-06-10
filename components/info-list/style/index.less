@@ -1,0 +1,55 @@
+@import "../../style/themes/default";
+@import "../../ellipsis/style/index.less";
+@imgWidth: 120px;
+@component-prefix-info-list: ~"@{component-prefix}-info-list";
+
+.@{component-prefix-info-list} {
+  &-extra {
+    &:hover {
+      cursor: pointer;
+      color: #72ACE3;
+    }
+  }
+  ul {
+    padding-left: 0;
+  }
+  &-li {
+    border-bottom: 1px dashed rgb(189, 189, 189);
+    padding: 5px 0;
+    list-style-type:none;
+    a {
+      color: #777777;
+      &:hover{
+        color: #22aaea;
+      }
+    }
+  }
+  &-li:nth-last-child(1) {
+    border-bottom: 0 dashed rgb(189, 189, 189);
+  }
+  &-img {
+    display: inline-block;
+    width: @imgWidth;
+    vertical-align: top;
+    img{
+      width: 120px;
+      height: 90px;
+    }
+  }
+  &-right {
+    display: inline-block;
+    width: calc(~"100% - "@imgWidth);
+    padding-left: 10px;
+  }
+  &-title {
+    display: block;
+    margin-top: 4px;
+  }
+  &-detail {
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+  }
+}

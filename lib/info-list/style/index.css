@@ -1,0 +1,56 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+.bis-info-list-extra:hover {
+  cursor: pointer;
+  color: #72ACE3;
+}
+.bis-info-list ul {
+  padding-left: 0;
+}
+.bis-info-list-li {
+  border-bottom: 1px dashed #bdbdbd;
+  padding: 5px 0;
+  list-style-type: none;
+}
+.bis-info-list-li a {
+  color: #777777;
+}
+.bis-info-list-li a:hover {
+  color: #22aaea;
+}
+.bis-info-list-li:nth-last-child(1) {
+  border-bottom: 0 dashed #bdbdbd;
+}
+.bis-info-list-img {
+  display: inline-block;
+  width: 120px;
+  vertical-align: top;
+}
+.bis-info-list-img img {
+  width: 120px;
+  height: 90px;
+}
+.bis-info-list-right {
+  display: inline-block;
+  width: calc(100% -  120px);
+  padding-left: 10px;
+}
+.bis-info-list-title {
+  display: block;
+  margin-top: 4px;
+}
+.bis-info-list-detail {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+}

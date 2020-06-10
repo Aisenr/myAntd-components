@@ -1,0 +1,19 @@
+@import "../../style/themes/default";
+@component-sMS-verification-code: ~"@{component-prefix}-sMS-verification-code";
+
+@btn: 128px;
+@btnMarginLeft: 10px;
+@right: @btn + @btnMarginLeft;
+
+.@{component-sMS-verification-code} {
+  &-btn {
+    width: @btn;
+    margin-left: @btnMarginLeft;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  &-input {
+    width: calc(~"100% - @{right}") !important;
+  }
+}

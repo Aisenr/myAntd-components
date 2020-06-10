@@ -1,0 +1,31 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-slide-show {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.bis-slide-show-img-outer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.bis-slide-show-img-outer img {
+  margin: 0 auto;
+}
+.bis-slide-show-annotation-info {
+  position: absolute;
+  height: 46px;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 1px;
+  color: #fff;
+  line-height: 46px;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 16px;
+}

@@ -1,0 +1,81 @@
+@import "../../style/themes/default";
+
+@component-prefix-file-upload: ~"@{component-prefix}-file-upload";
+
+.@{component-prefix-file-upload} {
+  &-upload-text {
+    font-size: 12px;
+    color: #666;
+  }
+}
+
+@component-file-upload-attachment: ~"@{component-prefix}-file-upload-attachment";
+
+.@{component-file-upload-attachment} {
+  &-btn-des {
+    margin-left: 4px;
+    color: rgba(0,0,0,0.45);
+  }
+  &-file {
+    //margin-bottom: 10px;
+  }
+  &-file-list {
+    position: relative;
+    display: flow-root;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    &-progress {
+      margin-left: -22px !important;
+    }
+  }
+  &-file-list-info {
+    margin-bottom: 4px;
+    height: 28px;
+    line-height: 32px;
+    &-link {
+      margin-right: 4px;
+      vertical-align: unset;
+    }
+    &-name {
+      width: calc(~'100% - 18px');
+      display: inline-block;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      vertical-align: top;
+      height: 27px;
+    }
+    &-input {
+      width: calc(~'100% - 18px') !important;
+      margin-right: 4px !important;
+    }
+    //.@{prefix-area-select-modal} :global(.ant-modal-header) {
+    //  background-color: #3B55E6;
+    //}
+    //:global(.has-error .ant-input:not([disabled]):hover) {
+    //  border-color: #d9d9d9 !important;
+    //}
+    //:global(.has-error .ant-input:not([disabled])) {
+    //  border-color: #d9d9d9 !important;
+    //}
+    &-delete {
+      cursor: pointer;
+    }
+  }
+  &-file-list-error {
+    color: #f5222d;
+  }
+}
+
+.has-error .@{component-file-upload-attachment} .ant-input {
+  border-color: #d9d9d9 !important;
+}
+.has-error .@{component-file-upload-attachment} .ant-input:hover {
+  border-color: #d9d9d9 !important;
+}
+
+.has-error .@{component-file-upload-attachment} .ant-input:focus {
+  box-shadow: 0 0 0 2px rgba(24,144,255,.2) !important;
+}
+
+

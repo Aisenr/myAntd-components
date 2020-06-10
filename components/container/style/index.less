@@ -1,0 +1,29 @@
+@import "../../style/themes/default";
+@prefix-container: ~"@{component-prefix}-container";
+.@{prefix-container}{
+  position: relative;
+  &-title {
+    float: left;
+    margin-bottom: 16px;
+    color: rgba(0,0,0,.85);
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 16px;
+  }
+  &-extra {
+    float: right;
+    font-size: @font-size-lg;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 40px;
+  }
+  &-children {
+    clear: both;
+  }
+  &-breadcrumb {
+    background-color: #fff;
+    padding-left: 20px !important;
+    padding-bottom: 16px !important;
+    padding-top: 16px !important;
+  }
+}

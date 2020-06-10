@@ -1,0 +1,37 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}
+.bis-news-panel-extra:hover {
+  cursor: pointer;
+  color: #72ACE3;
+}
+.bis-news-panel ul {
+  padding-left: 0;
+}
+.bis-news-panel-li {
+  padding: 5px 0;
+  list-style-type: none;
+}
+.bis-news-panel-li a {
+  color: #777777;
+}
+.bis-news-panel-li a:hover {
+  color: #22aaea;
+}
+.bis-news-panel-date {
+  display: inline-block;
+  width: 7rem;
+  text-align: right;
+}
+.bis-news-panel-content {
+  display: inline-block;
+  width: calc(100% -  7rem);
+}

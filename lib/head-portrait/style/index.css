@@ -1,0 +1,19 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-head-portrait {
+  width: 100%;
+  text-align: center;
+}
+.bis-head-portrait-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.bis-head-portrait-img img {
+  width: 120px;
+  height: 120px;
+}

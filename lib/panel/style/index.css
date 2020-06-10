@@ -1,0 +1,21 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-panel {
+  margin: 20px;
+}
+.bis-panel-title {
+  float: left;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.bis-panel-extra {
+  float: right;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.bis-panel-children {
+  clear: both;
+}

@@ -1,0 +1,21 @@
+@import "../../style/themes/default";
+@component-prefix-position-input-box: ~"@{component-prefix}-position-input-box";
+
+
+.icon() {
+  width: 19px;
+  height: 31px;
+  text-align: center;
+  color: #fff;
+}
+
+.@{component-prefix-position-input-box} {
+  &-blue {
+    background: url("https://webapi.amap.com/theme/v1.3/markers/n/mark_b.png");
+    .icon()
+  }
+  &-red {
+    background: url("https://webapi.amap.com/theme/v1.3/markers/n/mark_r.png");
+    .icon()
+  }
+}

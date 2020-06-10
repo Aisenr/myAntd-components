@@ -1,0 +1,28 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-password-input-box-input-small {
+  vertical-align: middle;
+  width: calc(100% - 102px) !important;
+}
+.bis-password-input-box-input-default {
+  vertical-align: middle;
+  width: calc(100% - 126px) !important;
+}
+.bis-password-input-box-input-large {
+  vertical-align: middle;
+  width: calc(100% - 150px) !important;
+}
+.bis-password-input-box-status {
+  display: inline-block;
+  border-radius: 5px;
+  background: #ccc;
+  text-align: center;
+  margin-left: 10px;
+  color: #fff;
+  vertical-align: middle;
+}
+.bis-password-input-box-password {
+  background: #ffb000;
+}

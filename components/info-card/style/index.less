@@ -1,0 +1,39 @@
+@import "../../style/themes/default";
+
+@component-prefix-dynamic-info-vertical: ~"@{component-prefix}-info-card";
+@height: 180px;
+@width: 100%;
+@paddingLeft: 25px;
+
+.@{component-prefix-dynamic-info-vertical} {
+  position: relative;
+  height: @height;
+  width: @width;
+  border-radius: 10px;
+  &-title {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    left: @paddingLeft;
+    top: @height / 2 - 25px;
+    color: #fff;
+    letter-spacing:3px;
+  }
+  &-font {
+    position: absolute;
+    font-size: 35px;
+    font-weight: 500;
+    left: @paddingLeft;
+    top: @height / 2 + 10px;
+    color: #fff;
+  }
+  &-img {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    img{
+      width: @height / 2;
+      height: @height / 2;
+    }
+  }
+}

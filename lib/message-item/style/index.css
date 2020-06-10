@@ -1,0 +1,27 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-message-item {
+  width: 100%;
+}
+.bis-message-item-outer {
+  width: 100%;
+  border-bottom: 1px dashed #bdbdbd;
+  padding-left: 20px;
+}
+.bis-message-item-below {
+  width: 100%;
+}
+.bis-message-item-title {
+  font-weight: 700;
+}
+.bis-message-item-content {
+  display: inline-block;
+  width: calc(100% -  150px);
+}
+.bis-message-item-time {
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+}

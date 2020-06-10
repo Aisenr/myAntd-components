@@ -1,0 +1,35 @@
+@import "../../style/themes/default";
+@component-prefix-overall-details: ~"@{component-prefix}-overall-details";
+@childrenOneWidth: 400px;
+
+.@{component-prefix-overall-details} {
+  position: relative;
+  &-childrenOne {
+    display: inline-block;
+    width: @childrenOneWidth;
+    float: left;
+  }
+  &-childrenTwo {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    @param: @childrenOneWidth + 20;
+    width: calc(~"100% - "@param);
+  }
+  &-introductionContainer {
+    clear: both;
+  }
+  &-space {
+    height: 40px;
+  }
+  &-introductionTitle {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-left: 30px;
+    border-top: 1px solid #ebebeb;
+  }
+  &-introduction {
+    padding-left: 30px;
+  }
+}

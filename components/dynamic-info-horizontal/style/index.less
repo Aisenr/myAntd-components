@@ -1,0 +1,46 @@
+@import "../../style/themes/default";
+
+@component-prefix-dynamic-info-horizontal: ~"@{component-prefix}-dynamic-info-horizontal";
+
+.@{component-prefix-dynamic-info-horizontal} {
+  &-panel {
+    position: relative;
+    height: 93px;
+    line-height: 93px;
+    background-color: #fff;
+    // text-align: center;
+    &:hover{
+      background-color: #e9e9e9;
+      .@{component-prefix-dynamic-info-horizontal}-panel-number{
+        font-weight: 600;
+      }
+    }
+    img{
+      width: 60px;
+      height: 65px;
+      vertical-align: middle;
+      margin-left: 15px;
+    }
+    &-unit{
+      position: absolute;
+      top: 8px;
+      right: 25px;
+      font-size: 14px;
+      color: #777;
+    }
+  }
+  &-panel-number {
+    position: absolute;
+    right: 60px;
+    display: inline-block;
+    // width: 93px;
+    color: #0154ad;
+    font-size: 38px;
+    // margin-left: 25px;
+  }
+  &-title {
+    margin-left: 15px;
+    font-size: 18px;
+    color: #1d1d1d;
+  }
+}

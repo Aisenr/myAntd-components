@@ -1,0 +1,13 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-list-table-odd {
+  background: #f9f9f9;
+}
+.bis-list-table-render {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  display: inline-block;
+}

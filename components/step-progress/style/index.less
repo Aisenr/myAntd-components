@@ -1,0 +1,18 @@
+@import "../../style/themes/default";
+@timeWidth: 150px;
+@space: 20px;
+@component-prefix-step-progress: ~"@{component-prefix}-step-progress";
+
+.@{component-prefix-step-progress} {
+  &-time {
+    display: inline-block;
+    width: @timeWidth;
+    margin-left: @space;
+  }
+  &-info {
+    display: inline-block;
+    @param: @timeWidth+@space;
+    width: calc(~"100% - "@param)
+  }
+}
+

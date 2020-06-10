@@ -1,0 +1,14 @@
+/* stylelint-disable at-rule-empty-line-before,at-rule-name-space-after,at-rule-no-unknown */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable */
+/* stylelint-disable declaration-bang-space-before,no-duplicate-selectors,string-no-newline */
+.bis-sMS-verification-code-btn {
+  width: 128px;
+  margin-left: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.bis-sMS-verification-code-input {
+  width: calc(100% - 138px) !important;
+}
